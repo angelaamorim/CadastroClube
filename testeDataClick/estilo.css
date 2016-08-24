@@ -1,0 +1,64 @@
+#painel{
+    padding: 0px;
+    margin: 30px;
+    text-align: center;
+}
+
+p{
+    font-family: DejaVu Sans;
+    font-size: 22px;
+}
+
+header{
+    font-family: DejaVu Sans;
+    font-size: 10px;
+    margin: 100px;
+    border-bottom: 1px solid grey;
+}
+
+label{
+    font-family: Verdana;
+    padding-right: 50px;
+}
+/* Aqui criei uma classe para estilizar o botão/link para ficar mais bonito e chamei de "but" para não confundir. */
+.but {
+    display: inline-block;
+    background-color: #ccc;
+    color: #444;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-sizing: border-box; 
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 0px;
+    margin-right: 10px;
+}
+/* Tirei o cursor de mãozinha para não diferenciar botões e links que usam a mesma classe. */
+.but:hover{
+    cursor: default;
+}
+
+#tabela{
+    margin-bottom: 50px;
+    border-collapse: collapse;
+}
+
+#colunaExcluir{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#colunaNome{
+    padding-right: 150px;
+    padding-left: 20px;
+}
+
+th{
+    background-color: #ccc;
+}
+
+#resposta{
+    font-size: 16px;
+    font-family: DejaVu Sans;
+}
